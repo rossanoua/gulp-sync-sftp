@@ -38,5 +38,18 @@ function clearDirectory(sftp, dirPath, callback) {
         async.map(entries, deleteEntry, callback);
     });
 }
+/**
+ * Clean the top level directory once all subdirectory and files are removed
+ * @param {SFTPStream} sftp 
+ * @param {string} dirPath remote directory
+ * @param {(error)=>{}} callback Callback
+ */
+function clearAllDirectory(sftp,dirPath,callback){
+    function deleteTopLevelDirectory(){
+        //Remove the top level directory and call the caller callback
+        sftp.rmdir(dirPath, callback);
+    }
+    clearDirectory(sftp,dirPath,deleteTopLevelDirectory)
+}
 
-module.exports.clearDirectory = clearDirectory;
+module.exports.clearDirectory = clearAllDirectory;

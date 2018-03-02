@@ -1,12 +1,12 @@
 {
-  "name": "gulp-sftp",
+  "name": "gulp-sftp-clean",
   "version": "0.1.5",
   "description": "Upload files via SSH",
   "license": "MIT",
-  "repository": "gtg092x/gulp-sftp",
-  "homepage": "https://github.com/gtg092x/gulp-sftp/",
+  "repository": "https://github.com/krysalead/gulp-sftp",
+  "homepage": "https://github.com/krysalead/gulp-sftp",
   "bugs": {
-    "url" : "https://github.com/gtg092x/gulp-sftp/issues"
+    "url" : "https://github.com/krysalead/gulp-sftp/issues"
   },
   "author": {
     "name": "Matthew Drake",
@@ -19,7 +19,8 @@
     "Matthew Drake <mdrake@mediadrake.com>",
     "Valan Brown <github@valanbrown.com>",
     "Sorin Guga <sorin.guga@gmail.com>",
-    "Sergii Rudchenko <rudchenkos@gmail.com>"
+    "Sergii Rudchenko <rudchenkos@gmail.com>",
+    "Krys Alead <krysalead@gmail.com>"
   ],
   "engines": {
     "node": ">=6.11.1"
