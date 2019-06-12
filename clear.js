@@ -21,7 +21,7 @@ function isDirectory(entry) {
  */
 function clearDirectory(sftp, dirPath, callback) {
     function deleteEntry(entry, callback) {
-        var entryPath = path.join(dirPath, entry.filename);
+        var entryPath = path.posix.join(dirPath, entry.filename);
 
         if (isDirectory(entry)) {
             clearDirectory(sftp, entryPath, () => {
