@@ -1,5 +1,5 @@
 {
-  "name": "gulp-sftp-clean",
+  "name": "gulp-sync-sftp",
   "version": "0.1.7",
   "description": "Upload files via SSH",
   "license": "MIT",
