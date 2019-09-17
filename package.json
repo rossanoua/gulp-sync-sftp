@@ -20,7 +20,8 @@
     "Valan Brown <github@valanbrown.com>",
     "Sorin Guga <sorin.guga@gmail.com>",
     "Sergii Rudchenko <rudchenkos@gmail.com>",
-    "Krys Alead <krysalead@gmail.com>"
+    "Krys Alead <krysalead@gmail.com>",
+    "Ruslan Kvashuk <raidho26@gmail.com>"
   ],
   "engines": {
     "node": ">=6.11.1"
@@ -43,7 +44,8 @@
     "client",
     "upload",
     "deploy",
-    "deployment"
+    "deployment",
+    "clear"
   ],
   "dependencies": {
     "async": "~0.9.0",
